@@ -1,0 +1,74 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   debug.log
+#	modified:   public/index.html
+#	modified:   public/scripts/app.js
+#	new file:   public/scripts/awesomplete.js
+#	modified:   public/scripts/global.js
+#	modified:   public/scripts/search-form.js
+#	new file:   public/styles/awesomplete.css
+#	new file:   public/vendor/awesomplete-gh-pages/CHANGELOG.md
+#	new file:   public/vendor/awesomplete-gh-pages/CONTRIBUTING.md
+#	new file:   public/vendor/awesomplete-gh-pages/LICENSE
+#	new file:   public/vendor/awesomplete-gh-pages/README.md
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.base.css
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.css
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.css.map
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.js
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.min.js
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.min.js.map
+#	new file:   public/vendor/awesomplete-gh-pages/awesomplete.theme.css
+#	new file:   public/vendor/awesomplete-gh-pages/bower.json
+#	new file:   public/vendor/awesomplete-gh-pages/gulpfile.js
+#	new file:   public/vendor/awesomplete-gh-pages/index.html
+#	new file:   public/vendor/awesomplete-gh-pages/index.js
+#	new file:   public/vendor/awesomplete-gh-pages/karma.conf.js
+#	new file:   public/vendor/awesomplete-gh-pages/package.json
+#	new file:   public/vendor/awesomplete-gh-pages/prism/prism.css
+#	new file:   public/vendor/awesomplete-gh-pages/prism/prism.js
+#	new file:   public/vendor/awesomplete-gh-pages/style.css
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/closeSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/evaluateSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/gotoSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/nextSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/openSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/openedSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/previousSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/selectSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/api/selectedSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/events/blurSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/events/inputSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/events/keydownSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/events/mousedownSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/events/submitSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/fixtures/options.html
+#	new file:   public/vendor/awesomplete-gh-pages/test/fixtures/plain.html
+#	new file:   public/vendor/awesomplete-gh-pages/test/helpers/bindSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/helpers/createSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/helpers/dollarSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/helpers/doubleDollarSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/helpers/fireSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/helpers/regExpEscapeSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/init/htmlSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/init/listSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/init/optionsSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/specHelper.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/allSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/dataSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/filterContainsSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/filterStartsWithSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/itemSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/replaceSpec.js
+#	new file:   public/vendor/awesomplete-gh-pages/test/static/sortByLengthSpec.js
+#	modified:   src/blocks/search-form.pug
+#	modified:   src/index.pug
+#	modified:   src/scripts/app.js
+#	modified:   src/scripts/global.js
+#	modified:   src/scripts/search-form.js
+#
+
