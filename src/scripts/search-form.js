@@ -6,14 +6,6 @@ function searchForm(name){
 }
 
 
-function setup(){
-	loadJSON(JSON_FILE,gotData);
-}
-function gotData(data){
-	alert(data);
-	alert("lol");
-}
-
 
 
 var valor = searchForm("search");

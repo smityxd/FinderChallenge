@@ -100,13 +100,21 @@ function init() {
                     }
                 }
             }else{//explorando los datos
+                var cantidad = 8; //cantidad de items por pagina
+                var i = 0; //item actual
                 for(var l in actual_JSON[k]){
-                    if(actual_JSON[k][l].title.indexOf(busqueda)>0){
-                    //console.log(l,"------------------------------------------------",actual_JSON[k][l].id)
-                    seccionLibros += "<img src='"+actual_JSON[k][l].image+"'>"+"<br>";
-                    seccionLibros += "<p>"+actual_JSON[k][l].title+"</p>"+"<br>";
-                    seccionLibros += "<p>"+actual_JSON[k][l].teaser+"</p>"+"<br>";
-
+                    if(i>=cantidad)break;//salimos si se pasa de la cuenta
+                    var image = actual_JSON[k][l].image;
+                    var title = actual_JSON[k][l].title;
+                    var teaser = actual_JSON[k][l].teaser;
+                    if((title.toLowerCase().indexOf(busqueda.toLowerCase())>0 || teaser.toLowerCase().indexOf(busqueda.toLowerCase())>0) || busqueda == ""){
+                        //console.log(l,"------------------------------------------------",actual_JSON[k][l].id)
+                        seccionLibros += "<div class='book-item'>"
+                        seccionLibros += "<img src='"+image+"'>"+"<br>";
+                        seccionLibros += "<p>"+title+"</p>"+"<br>";
+                        seccionLibros += "<span>"+teaser+"</span>"+"<br>";
+                        seccionLibros += "</div>";
+                        i++;
                     }
                 }
             }
