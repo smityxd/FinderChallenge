@@ -20,6 +20,22 @@ html(lang="es")
             content.pure-u-3-4
             footer.pure-u-1
 
+        form
+            div.form-group
+                input#search.form-control(type='text', placeholder='Buscar...' name='search')
+                button.btn.btn-primary(type='submit') Buscar
+
+        table
+            tr
+                td
+                    div#searches.sections
+                    div#categories.sections
+                    div#language.sections
+                    div#edition.sections
+                    div#dates.sections
+                td
+                    div#books
+
         //- third party libraries
         script(src="/vendor/underscore/underscore-min.js")
 
