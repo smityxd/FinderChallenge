@@ -44,14 +44,22 @@ function searchForm(name){
     results = regex.exec(location.search);
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-
-
-
-
 var busqueda = searchForm("search");
 
 
-
+function itemEsconder(i){
+    document.getElementById("busqueda"+i).style.display = 'none';
+}
+function toggleOption(i){
+    //document.getElementById("busqueda"+i).style.display = 'none';
+    var estado = document.getElementById("opciones"+i).style.display;
+    if(estado=="block"){
+        estado = "none";
+    }else{
+        estado = "block"
+    }
+    document.getElementById("opciones"+i).style.display = estado;
+}
 
 
 var seccionBusquedas = "<p>Busquedas Guardadas</p>";
@@ -69,8 +77,13 @@ function init() {
             if(k=="entities"){
                 for(var l in actual_JSON[k]){
                     if(l=="saved"){ //busquedas guardadas
+                        var i = 1;
                         for(var m in actual_JSON[k][l]){
+                                seccionBusquedas += "<div style='height:50px' id='busqueda"+i+"' onmouseover='javascript:toggleOption("+i+")' onmouseout='javascript:toggleOption("+i+")'>";
                                 seccionBusquedas += "<a href='#" + actual_JSON[k][l][m].url + "'>" + actual_JSON[k][l][m].label + "</a><br>";
+                                seccionBusquedas += "<div style='display:none' id='opciones"+i+"'><a href='#' id='opc'>Editar</a> <a href='#' onclick='javascript:itemEsconder("+i+")'>Eliminar</a></div><br>";
+                                seccionBusquedas += "</div>";
+                                i++;
                         }
                     }
                     if(l=="categories"){ //categorias

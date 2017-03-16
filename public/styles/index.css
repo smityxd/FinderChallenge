@@ -1,6 +1,5 @@
 * {
   font-family: "Proxima Nova";
-  vertical-align: top;
 }
 .app {
   max-width: 960px;
@@ -8,6 +7,9 @@
 }
 .search-form {
   margin-top: 30px;
+  float: left;
+  width: 600px;
+/*border solid 1px red*/
 }
 @media only screen and (max-width: 650px) {
   .search-form {
@@ -18,11 +20,13 @@
 /*border solid 1px grey*/
   padding: 5px;
   width: 300px;
+  margin-left: 20px;
 }
 .sections p {
   font-size: 18px;
   font-weight: bold;
   margin-top: 30px;
+  margin-left: -15px;
 }
 .book-item {
   float: left;
